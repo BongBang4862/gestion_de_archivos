@@ -27,8 +27,8 @@
     <link href="<?php echo BASE_URL. 'Assets/css/main.min.css'?>" rel="stylesheet">
     <link href="<?php echo BASE_URL. 'Assets/css/custom.css'?>" rel="stylesheet">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL . 'Assets/images/neptune.png'?>" />
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL . 'Assets/images/neptune.png' ?>" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL . 'Assets/images/cuchillofavicon.ico'?>" />
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL . 'Assets/images/cuchillofavicon.ico' ?>" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,12 +53,12 @@
                 <input type="email" class="form-control m-b-md" id="signInEmail" aria-describedby="signInEmail" placeholder="example@neptune.com">
 
                 <label for="signInPassword" class="form-label">Password</label>
-                <input type="password" class="form-control" id="signInPassword" aria-describedby="signInPassword" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+                <input type="password" class="form-control" id="signInPassword" aria-describedby="signInPassword" placeholder="Contraseña ">
             </div>
 
             <div class="auth-submit">
-                <a href="#" class="btn btn-primary">Sign In</a>
-                <a href="#" class="auth-forgot-password float-end">Forgot password?</a>
+                <a href="#" class="btn btn-primary">Acceso </a>
+                <a href="#" class="auth-forgot-password float-end">Olvidaste tu Contraseña</a>
             </div>
             <div class="divider"></div>
             <div class="auth-alts">
