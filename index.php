@@ -1,4 +1,6 @@
 <?php
+##echo password_hash('admin',PASSWORD_DEFAULT);
+##exit;
 require_once 'Config/Config.php';
 $ruta = !empty($_GET['url']) ? $_GET['url'] : "principal/index";
 $array = explode("/", $ruta);

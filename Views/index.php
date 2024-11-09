@@ -48,18 +48,20 @@
             </div>
             <p class="auth-description">Gestor de Archivos </p>
 
-            <div class="auth-credentials m-b-xxl">
-                <label for="signInEmail" class="form-label">Email address</label>
-                <input type="email" class="form-control m-b-md" id="signInEmail" aria-describedby="signInEmail" placeholder="example@neptune.com">
+            <form id="formulario" autocomplete="off" action="">
+                <div class="auth-credentials m-b-xxl">
+                    <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
+                    <input type="email" name="email" class="form-control m-b-md" id="email" aria-describedby="email" placeholder="example@neptune.com">
 
-                <label for="signInPassword" class="form-label">Password</label>
-                <input type="password" class="form-control" id="signInPassword" aria-describedby="signInPassword" placeholder="Contraseña ">
-            </div>
+                    <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                    <input type="password" name="password" class="form-control" id="password" aria-describedby="password" placeholder="Contraseña ">
+                </div>
 
-            <div class="auth-submit">
-                <a href="#" class="btn btn-primary">Acceso </a>
-                <a href="#" class="auth-forgot-password float-end">Olvidaste tu Contraseña</a>
-            </div>
+                <div class="auth-submit">
+                    <button type="submit" href="#" class="btn btn-primary">Acceso </button>
+                    <a href="#" class="auth-forgot-password float-end">Olvidaste tu Contraseña</a>
+                </div>
+            </form>
             <div class="divider"></div>
             <div class="auth-alts">
                 <a href="#" class="auth-alts-google"></a>
@@ -77,5 +79,9 @@
     <script src="<?php echo BASE_URL . 'Assets/js/main.min.js'?>"></script>
     <script src="<?php echo BASE_URL . 'Assets/js/sweetalert2@11.js'?>"></script>
     <script src="<?php echo BASE_URL . 'Assets/js/custom.js'?>"></script>
+    <script>
+        const base_url = '<?php  echo BASE_URL ?>'
+    </script>
+    <script src="<?php echo BASE_URL . 'Assets/js/page/login.js'?>"></script>
 </body>
 </html>
